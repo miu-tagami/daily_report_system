@@ -61,8 +61,11 @@ public class Report {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+
     @Column(name = "like_reaction" , nullable = false)
     private Integer like_reaction;
+
+
 
     public Integer getId() {
         return id;
@@ -120,6 +123,7 @@ public class Report {
         this.updated_at = updated_at;
     }
 
+
     public Integer getLike_reaction() {
         return like_reaction;
     }
@@ -127,6 +131,7 @@ public class Report {
     public void setLike_reaction(Integer like_reaction) {
         this.like_reaction = like_reaction;
     }
+
 
 
 

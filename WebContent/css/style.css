@@ -49,7 +49,10 @@ table,tr,th,td{
 table{
     width: 100%;
     table-layout: fixed;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+>>>>>>> origin/master
 }
 
 th{
@@ -142,11 +145,16 @@ table#report_list th{
 }
 
 table#report_list .report_name{
+<<<<<<< HEAD
     width: 18%;
+=======
+    width: 20%;
+>>>>>>> origin/master
     padding: 10px 2%;
 }
 
 table#report_list .report_date{
+<<<<<<< HEAD
     width: 12%;
 }
 
@@ -160,6 +168,17 @@ table#report_list .report_action{
 
 table#report_list .report_reaction{
     width: 12%;
+=======
+    width: 20%;
+}
+
+table#report_list .report_title{
+    width: 37%;
+}
+
+table#report_list .report_action{
+    width: 13%;
+>>>>>>> origin/master
 }
 
 pre{
@@ -168,6 +187,7 @@ pre{
 
 h3{
     font-size: larger;
+<<<<<<< HEAD
 }
 
 .like_button{
@@ -182,4 +202,6 @@ h3{
 
 .like_button:hover{
     background-color: gainsboro;
+=======
+>>>>>>> origin/master
 }

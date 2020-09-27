@@ -46,6 +46,7 @@ public class ReportsReactionServlet extends HttpServlet {
 
         response.sendRedirect(request.getContextPath() + "/reports/index");
 
+
     }
 
 
